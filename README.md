@@ -5,7 +5,7 @@ It it I think a good idea I will collect all the how-to search I made during my 
 ## 1. How to **link** files/datasets from google drive to the colab:
 
 - from google.colab import drive
-  drive.mount('/content/drive')
+drive.mount('/content/drive')
 
 Then, authentication link appears. You need to give colab your google id authentication where
 you have kept your files/datasets
